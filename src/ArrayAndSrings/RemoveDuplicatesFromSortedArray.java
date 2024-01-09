@@ -1,5 +1,5 @@
 package ArrayAndSrings;
-
+//LEETCODE PROBLEM NO :26
 public class RemoveDuplicatesFromSortedArray {
 
    public int removeDuplicates(int []arr){
@@ -10,7 +10,9 @@ public class RemoveDuplicatesFromSortedArray {
            // If different, update the array at index 'j' with the current element
            // Increment 'j' to move to the next position where a unique element should go
            if(arr[i]!=arr[i-1]){
+
                arr[j++]=arr[i];
+
            }
      }//'j' now is the new length of the array without duplicates
        return j;

@@ -1,7 +1,7 @@
 package ArrayAndSrings;
 
 import java.util.Arrays;
-
+//LEETCODE PROBLEM NO :169
 public class MajorityElement {
 
     public int solution(int[] nums) {
